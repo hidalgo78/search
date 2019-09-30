@@ -17,7 +17,7 @@ $(function() {
         var email = $('.js-email-s').val();
         var msg =   $('.fail-msg');
         var found = false;
-        var searchInput = searchInput;
+        var searchInput = $('js-email-s');;
         event.preventDefault();
 
         if (ValidateEmail(email)) {
