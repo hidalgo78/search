@@ -18,7 +18,6 @@ $(function() {
                                 found = true;
                                 window.localStorage.setItem('data', JSON.stringify(val));
                                 window.location.href = "/results.html";
-                                return;
                             }else {
                               found = false;
                             }
