@@ -5,26 +5,29 @@
 }
  @font-face {
      font-family: 'helveticaneuebd-webfont';
-     src: url('../fonts/helveticaneuebd-webfont.eot');
+     src: url('../fonts/helveticaneue/helveticaneuebd-webfont.eot');
     /* IE9 Compat Modes */
-     src: url('../fonts/helveticaneuebd-webfont.woff') format('woff'),
+     src: url('../fonts/helveticaneue/helveticaneuebd-webfont.woff') format('woff'),
     /* Modern Browsers */
-     url('../fonts/helveticaneuebd-webfont.ttf') format('truetype'),
+     url('../fonts/helveticaneue/helveticaneuebd-webfont.ttf') format('truetype'),
     /* Safari, Android, iOS */
-     url('../fonts/helveticaneuebd-webfont.svg') format('svg');
+     url('../fonts/helveticaneue/helveticaneuebd-webfont.svg') format('svg');
     /* Legacy iOS */
 }
- @font-face {
-     font-family: 'helveticaneue-webfont';
-     src: url('../fonts/helveticaneue-webfont.eot');
-    /* IE9 Compat Modes */
-     src: url('../fonts/helveticaneue-webfont.woff') format('woff'),
-    /* Modern Browsers */
-     url('../fonts/helveticaneue-webfont.ttf') format('truetype'),
-    /* Safari, Android, iOS */
-     url('../fonts/helveticaneue-webfont.svg') format('svg');
-    /* Legacy iOS */
+
+
+@font-face {
+    font-family: 'helveticaneue';
+    src: url('../fonts/helveticaneue/helveticaneue-medium-webfont.eot');
+   /* IE9 Compat Modes */
+    src: url('../fonts/helveticaneue/helveticaneue-medium-webfont.woff') format('woff'),
+   /* Modern Browsers */
+    url('../fonts/helveticaneue/helveticaneue-medium-webfont.ttf') format('truetype'),
+   /* Safari, Android, iOS */
+    url('../fonts/helveticaneue.svg') format('svg');
+   /* Legacy iOS */
 }
+
  @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
  .bg-big-blue {
      background-color: var(--bigblue);
@@ -76,7 +79,7 @@
      margin: 0px;
 }
  #search-section .description {
-     font-family: 'helveticaneue-webfont';
+     font-family: 'helveticaneue';
      font-size: 18px;
      color:var(--white);
      letter-spacing: 0;
@@ -146,7 +149,7 @@ left: 27px;
 font-size: 14px;
 color: #DC0015;
 letter-spacing: 0;
-font-family: 'helveticaneue-webfont';
+font-family: 'helveticaneue';
 display: none;
 }
  #search-section input[type="email"] {
@@ -205,7 +208,7 @@ display: none;
      color: #004A80;
 }
  #reverse p {
-     font-family: 'helveticaneue-webfont';
+     font-family: 'helveticaneue';
      font-size: 18px;
      color: #4A4A4A;
      letter-spacing: 0;
@@ -251,7 +254,7 @@ display: none;
      background-image: linear-gradient(0deg, #E6E6E6 0%, #FFFFFF 100%);
 }
  footer p {
-     font-family: 'helveticaneue-webfont';
+     font-family: 'helveticaneue';
      font-size: 15px;
      color: #999999;
      letter-spacing: 0;
@@ -301,7 +304,7 @@ display: none;
      text-align: center;
 }
  #results .main-title p {
-     font-family: 'helveticaneue-webfont';
+     font-family: 'helveticaneue';
      font-size: 18px;
      color: #4A4A4A;
      letter-spacing: 0;
@@ -325,11 +328,11 @@ display: none;
      color: #000000;
      letter-spacing: 0;
      line-height: 24px;
-     font-family: 'helveticaneue-webfont';
+     font-family: 'helveticaneue';
      margin: 0;
 }
  #results .item a {
-     font-family: 'helveticaneue-webfont';
+     font-family: 'helveticaneue';
      font-size: 16px;
      color: #004A80;
      letter-spacing: 0;
