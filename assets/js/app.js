@@ -26,8 +26,10 @@ $(function() {
                     if(found == false) {
                       //localStorage.clear();
                       console.log("no encontre ese correo");
-                      $('.fail-msg').text('No info for this email address..Please try again!');
-                        $('.fail-msg').fadeIn('fast');
+                      setTimeout(function(){
+                        $('.fail-msg').text('No info for this email address..Please try again!');
+                          $('.fail-msg').fadeIn('fast');
+                       }, 3000);
                       //  window.location.href = "http://localhost/BeenVerified/results.html";
                     }
                 },
