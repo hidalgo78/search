@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Jr FrontEnd Challenge</title>
+    <meta name="description" content= "Jr FrontEnd Challenge description" />
+    <meta name="robots" content= "index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content= "FrontEnd, js, Challenge">
+    <meta property="og:title" content="Jr FrontEnd Challenge">
+    <meta property="og:image" content="assets/PNGs/Logo@2x.png">
+    <meta property="og:description" content="Jr FrontEnd Challenge description">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  </head>
+  <body class="res">
+    <header class="bg-big-blue">
+      <div class="align-items-center container d-flex header-container justify-content-between h-100 custom-container">
+        <a href="http://localhost/BeenVerified/index.html"><img class="logo" src="assets/PNGs/Logo@2x.png" alt="logo image here"></a>
+        <div class="d-flex justify-content-between right-side-header">
+          <img class="ico" src="assets/PNGs/icn_search@2x.png" alt="search here">
+          <img class="ico" src="assets/PNGs/icn_person@2x.png" alt="Account here">
+        </div>
+      </div>
+    </header>
+    <div class="space30"></div>
+    <section id="results" class="bg-gray">
+      <div class="container custom-container">
+        <div class="row">
+          <div class="col main-title">
+            <h2>Result</h2>
+            <p class="text-lg-center">Look at the result below to see the details of the person you’re searched for.</p>
+          </div>
+        </div>
+      </div>
+        <div class="space20 space-md-30"></div>
+      <div class="container custom-container">
+        <div class="row">
+          <div class="results container custom-container">
+            <div class="row">
+              <div class="col-md-2 col-lg-1 d-none d-md-block">
+                <div class="circle">
+                    <img class="ico" src="assets/PNGs/icn_person@2x.png" alt="Account here">
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-10 col-lg-11">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="item js-name">
+                      <h3></h3>
+                      <p></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="item js-adress">
+                      <h3 class="small">Address</h3>
+                      <p></p>
+                    </div>
+                    <div class="item js-email">
+                      <h3 class="small">Email</h3>
+                      <p></p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="d-flex flex-column item js-numbers">
+                      <h3 class="small">Phone Numbers</h3>
+                    </div>
+                    <div class="item js-relatives">
+                      <h3 class="small">Relatives</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="search-section" class="bg-big-blue">
+      <div class="space20 space-md-30"></div>
+      <div class="container custom-container">
+        <div class="row">
+          <div class="col">
+            <h2 class="title">Search Any Email Address</h2>
+            <div class="space10"></div>
+            <p class="description">
+              <span>Start Here</span>- Look up the owner's name, photos and online profiles. See what you find!
+            </p>
+            <div class="space20 space-md-30"></div>
+            <form class="" method="get">
+              <div class="form-group">
+                <div class="flex-column flex-md-row row">
+                  <div class="col-sm-12 col-md-8 col-lg-9 position-relativ">
+                    <input type="email" class="form-control js-email-s" id="email" aria-describedby="emailHelp" placeholder="EMAIL">
+                    <span class="fail-msg">Please add a valid email address</span>
+                  </div>
+                  <div class="space10"></div>
+                  <div class="col-sm-12 col-md-4 col-lg-3">
+                    <button type="submit" id="go" class="btn btn-primary js-search">GO!</button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="row mt-2">
+          <div class="col-12 d-flex">
+            <img class="ico" src="assets/PNGs/lock@2x.png" alt="search here">
+            <p>Enter Any Email Address. They won't be notified.</p>
+          </div>
+        </div>
+        <div class="space40"></div>
+      </div>
+    </section>
+  </body>
+  <footer>
+    <div class="container custom-container">
+      <div class="row">
+        <div class="col-12 col-md-8">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+        <div class="align-items-center col-12 col-md-4 d-flex justify-content-center a-wraper">
+          <a href="#" target="_blank">Terms | Privacy</a>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="assets/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/app.js"></script>
+  </footer>
+</html>
