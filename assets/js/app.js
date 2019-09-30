@@ -17,7 +17,7 @@ $(function() {
                                 //console.log(val);
                                 found = true;
                                 window.localStorage.setItem('data', JSON.stringify(val));
-                                window.location.href = "http:http://search.csdev1.com/results.html";
+                                window.location.href = "/results.html";
                                 return;
                             }else {
                               found = false;
