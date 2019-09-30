@@ -29,7 +29,7 @@ $(function() {
                       setTimeout(function(){
                         $('.fail-msg').text('No info for this email address..Please try again!');
                           $('.fail-msg').fadeIn('fast');
-                       }, 3000);
+                       }, 1000);
                       //  window.location.href = "http://localhost/BeenVerified/results.html";
                     }
                 },
