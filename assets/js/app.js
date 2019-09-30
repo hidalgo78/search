@@ -8,7 +8,7 @@ $(function() {
           $('.fail-msg').fadeOut('fast');
           $('.js-email-s').removeClass("fail");
             $.ajax({
-                url: 'http://localhost/BeenVerified/data.json',
+                url: 'http://search.csdev1.com/data.json',
                 dataType: 'json',
                 success: function(data) {
                     $.each(data, function(key, val) {
@@ -17,7 +17,7 @@ $(function() {
                                 //console.log(val);
                                 found = true;
                                 window.localStorage.setItem('data', JSON.stringify(val));
-                                window.location.href = "http://localhost/BeenVerified/results.html";
+                                window.location.href = "http:http://search.csdev1.com/results.html";
                                 return;
                             }else {
                               found = false;
